@@ -1,10 +1,10 @@
 {
-  "name": "qti-components-cli",
+  "name": "polymer-agnostic-test-application",
   "version": "1.0.0",
   "repository": "",
   "author": "Patrick de Klein",
   "license": "MIT",
-  "description": "render qti 3.0",
+  "description": "Test library delivered from polymer-agnostic-library-rollup-typescript",
   "scripts": {
     "tsc-watch": "tsc -w",
     "polymerserve": "polymer serve"
@@ -14,7 +14,7 @@
     "@polymer/polymer": "3.0.5",
     "@webcomponents/webcomponentsjs": "2.1.1",
     "lit-element": "^2.2.1",
-    "qti-components-typescript": "file:../qti-components-typescript"
+    "qti-components-typescript": "file:../polymer-agnostic-library-rollup-typescript"
   },
   "devDependencies": {
     "rollup-plugin-typescript2": "^0.24.3",
