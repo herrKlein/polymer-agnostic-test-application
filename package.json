@@ -5,14 +5,9 @@
   "author": "Patrick de Klein",
   "license": "MIT",
   "description": "render qti 3.0",
-  "main": "build/index.js",
-  "files": [
-    "/build",
-    "build"
-  ],
   "scripts": {
-    "tsc-polymerserve": "tsc && polymer serve",
-    "tsc-polymerbuild": "tsc && polymer build"
+    "tsc-watch": "tsc -w",
+    "polymerserve": "polymer serve"
   },
   "dependencies": {
     "@polymer/decorators": "3.0.0",

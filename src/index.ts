@@ -1,9 +1,7 @@
-import {LazyElement} from 'qti-components-typescript'
-import {PolymerDefault} from 'qti-components-typescript'
-import {SimpleGreeting} from 'qti-components-typescript'
+import {LitComponent, PolymerDefault, PolymerTypescript} from 'qti-components-typescript'
 
-SimpleGreeting;
+LitComponent;
 PolymerDefault;
-LazyElement;
+PolymerTypescript;
 
-customElements.define('polymer-default', PolymerDefault);
+// customElements.define('polymer-default', PolymerDefault);
